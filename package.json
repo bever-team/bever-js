@@ -1,0 +1,54 @@
+{
+  "name": "@bever/sdk",
+  "version": "0.1.0",
+  "description": "Inspect Bever semantic models and call Bever HTTP APIs from JavaScript and TypeScript.",
+  "keywords": [
+    "bever",
+    "business-applications",
+    "sdk",
+    "low-code",
+    "api-client"
+  ],
+  "homepage": "https://bever.dev/reference/sdk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bever-team/bever-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bever-team/bever-js/issues"
+  },
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Ali Abdullah Yılmaz",
+    "email": "ali@aliyil.com"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "NOTICE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc -p ./",
+    "test": "npm run build && node --test ./test/*.test.mjs",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
+}

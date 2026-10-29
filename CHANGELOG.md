@@ -1,8 +1,8 @@
 # Changelog
 
-## 0.1.0
+## 0.1.0-prealpha.1
 
-The first public release.
+The first public pre-alpha release.
 
 - `parseBeverModel` and `createBeverApp` for semantic model 0.10, with validation.
 - Presentation resolution with readable default labels.

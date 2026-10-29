@@ -1,6 +1,6 @@
 {
   "name": "@bever/sdk",
-  "version": "0.1.0",
+  "version": "0.1.0-prealpha.1",
   "description": "Inspect Bever semantic models and call Bever HTTP APIs from JavaScript and TypeScript.",
   "keywords": [
     "bever",

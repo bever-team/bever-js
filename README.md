@@ -2,8 +2,10 @@
 
 The JavaScript SDK for [Bever](https://bever.dev): read Bever semantic models and call the Bever HTTP API from browsers and Node.js. The web app that `bever new` creates is built on it.
 
+> **Bever is pre-alpha.** The language and APIs will change in breaking ways between releases, and there is no upgrade path yet. Do not use it for production data. See [Status](https://bever.dev/guide/what-is-bever#status).
+
 ```sh
-npm install @bever/sdk
+npm install @bever/sdk@prealpha
 ```
 
 ## Read a model
